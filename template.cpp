@@ -23,6 +23,7 @@ using namespace std;
 #define sortall(x) sort(all(x))
 #define tr(it, a) for (auto it = a.begin(); it != a.end(); it++)
 #define PI 3.1415926535897932384626
+#define mod 1000000007
 typedef pair<int, int> pii;
 typedef pair<ll, ll> pl;
 typedef vector<int> vi;
