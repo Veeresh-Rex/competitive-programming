@@ -83,7 +83,7 @@ bool nQueenSolve(int i, vvi &sol, int n)
     {
         state = 1;
         printNQueen(sol);
-        return false; // Make true to print all possible values
+        return true; // Make false to print all possible values
     }
     for (int j = 0; j < n; j++)
     {
