@@ -150,7 +150,10 @@ int32_t main()
         }
 
         if (solve(sudoku))
-            printGrid(sudoku);
+            printGrid(sudoku);  
+        
+        // else part if sudoku in not valid
+        
     }
     return 0;
 }
